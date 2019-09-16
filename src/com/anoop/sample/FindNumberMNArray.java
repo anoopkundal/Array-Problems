@@ -40,10 +40,10 @@ public class FindNumberMNArray {
 	 * Time Complexity : O(n)
 	 */
 	public static void findElement(int arr[][], int findx) {
-		//int rows = arr.length;
+		int rows = arr.length;
 		int cols = arr[0].length;
 		int i = 0, j = cols - 1; // set indexes for top right element 
-        while (i <= cols && j >= 0) { 
+        while (i < rows && j >= 0) { 
             if (arr[i][j] == findx) { 
                 System.out.println(""+findx+ " Found at " + i + " " + j); 
                 return;
