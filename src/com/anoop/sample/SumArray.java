@@ -29,7 +29,7 @@ public class SumArray {
 	
 	/*
 	 * Method to sum the elements by looping through the array 
-	 * O(n) problem
+	 * Time Complexity : O(n)
 	 */
 	public static int[] sumInArrayLoop(int[] newArray) {
 		// Looping through the and replacing elements with the sum of the previous elements
@@ -41,7 +41,7 @@ public class SumArray {
 	
 	/*
 	 * Method to sum the elements by looping through the array 
-	 * O(n) problem
+	 * Time Complexity : O(n)
 	 */
 	public static int[] sumOutArrayLoop(int[] newArray) {
 		// Looping through the and creating a new array with the sum of the previous elements

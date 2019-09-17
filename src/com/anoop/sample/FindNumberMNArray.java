@@ -37,7 +37,7 @@ public class FindNumberMNArray {
 	
 	/*
 	 * Method to find the element by elimination rows or columns 
-	 * Time Complexity : O(n)
+	 * Time Complexity : O(logn)
 	 */
 	public static void findElement(int arr[][], int findx) {
 		int rows = arr.length;
@@ -52,7 +52,7 @@ public class FindNumberMNArray {
                 j--; 
             else // if arr[i][j] < findx 
                 i++; 
-            System.out.println(""+findx+ " NOT Found at " + i + " " + j); 
+            //System.out.println(""+findx+ " NOT Found at " + i + " " + j); 
         } 
         System.out.println(""+findx+" not found"); 
         return; 

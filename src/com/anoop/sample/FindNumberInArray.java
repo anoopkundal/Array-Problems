@@ -21,6 +21,7 @@ public class FindNumberInArray {
 	/*
 	 * Method to sum the elements by looping through the array 
 	 * Return true as soon as the number is found
+	 *   * Time Complexity : O(n)
 	 */
 	public static boolean findInArrayLoop(int[] newArray, int find) {
 		// Looping through the array and finding the required number
