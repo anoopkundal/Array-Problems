@@ -1,5 +1,5 @@
  
-####Big-O notation - O(n)
+#Big-O notation - O(n)
 This time complexity is defined as a function of the input size n, where n indicates the magnitude of the input, while O is the growth rate function. Time complexity estimates how an algorithm performs. Time complexity simply is the count of the number of operations performed by the code.
 # Array-Problems
 Arrays problems are the best to understand time complexity performance. This becomes significant as the size of the array grows.
